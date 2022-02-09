@@ -1,2 +1,7 @@
 # Repositório do desafio Git/GitHub
-Desafio de projeto da DIO sobre Git/GitHub.
+
+##Materiais das aulas já concluidas:
+
+ - Fluxogramas
+ - Git
+ - Portugol
