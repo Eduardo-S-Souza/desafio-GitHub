@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Eduardo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-25 08:05:35 "/>
+        <attribute name="created" value="RWR1YXJkbztERVNLVE9QLU40MDhUNUk7MjAyMi0wMS0yNTsiMDE6Mjk6MDYgIjsyOTIy"/>
+        <attribute name="edited" value="RWR1YXJkbztERVNLVE9QLU40MDhUNUk7MjAyMi0wMS0yNTsiMDg6MDU6MzUgIjsyOzMwMzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tabuada, cont, limite, mult" type="Integer" array="False" size=""/>
+            <assign variable="tabuada" expression="1"/>
+            <assign variable="cont" expression="0"/>
+            <assign variable="limite" expression="10"/>
+            <while expression="tabuada &lt;= limite">
+                <while expression="cont &lt;= limite">
+                    <assign variable="mult" expression="tabuada * cont"/>
+                    <output expression="tabuada &amp; &quot; X &quot; &amp; cont &amp; &quot; = &quot; &amp; mult" newline="True"/>
+                    <assign variable="cont" expression="cont + 1"/>
+                </while>
+                <assign variable="tabuada" expression="tabuada + 1"/>
+                <assign variable="cont" expression="1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

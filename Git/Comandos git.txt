@@ -1,0 +1,37 @@
+COMANDOS GIT
+
+git status
+git init
+git add *
+git clone linkrepositorio
+cd
+ls
+git push origin nomeDaBranch
+git pull origin nomeDaBranch
+git commit -m "Mensagem"
+echo > arquivo.extenção
+git stash save "Nome do Stash"
+git stash list
+git checkout nomeDaBranch
+git stash pop 1
+___________________________
+Histórico de commits
+
+git log --oneline
+git log
+git log nomedapasta
+git log graph
+
+___________________________
+
+reset:
+
+git reset --soft HEAD~1
+git reset --mixed HEAD~1
+git reset --hard HEAD~1
+
+___________________________
+
+Revert:
+
+git revert HEAD~1
